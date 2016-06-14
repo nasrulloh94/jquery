@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animasi Background Ketika Scroll</title>
+
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		background-color: yellow;
+		transition: background-color 0.5s;
+		-webkit-transition: background-color 0.5s;
+		margin: 0;
+		padding: 0;
+		font-family: Helvetica, arial, sans-serif;
+		color: #1A2B2A;
+		overflow-x:hidden;
+	}
+	header{
+	}
+	ul{
+		background-color: #1A2B2A; 
+		width: 100%;
+		margin: 0;
+	}
+	li{
+		list-style-type: none;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		width: 15%;
+	}
+	a{
+		width: 100%;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		display: inline-block;
+		padding: 20px 0;
+	}
+	a:hover{
+		background-color: #274240;
+	}
+	section{
+		padding: 20px;
+	}
+	article{
+		padding: 50px;
+	}
+	</style>
+
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(window).scroll(function(){
+		  var y = $(window).scrollTop()
+		  if (y <= 1600){
+		    $('body').css('background-color','yellow');
+		  } else if(y <= 3200){
+		    $('body').css('background-color','orange');
+		  } else {
+		    $('body').css('background-color','red');
+		  }
+		});
+	</script>
+</head>
+<body>
+<div class="container">
+	
+
+<header>
+  <ul>
+    <li><a href="#first">One</a></li>
+    <li><a href="#second">Two</a></li>
+    <li><a href="#third">Three</a></li>
+  </ul>
+</header>
+
+<section id="first">
+
+	<article>
+		<h2>SCROLL</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+
+</section>
+
+<section id="second">
+	
+	<article>
+		<h2>Section 2</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+
+</section>
+
+<section id="third">
+	
+	<article>
+		<h2>Section 3</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+	
+	<article>
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum, aliquam inventore in facere earum natus totam vel molestiae at animi deserunt autem atque dolore. Officia quis praesentium aperiam voluptatibus vitae tenetur deserunt doloribus, cupiditate ducimus mollitia magnam error eaque ratione molestiae unde, fugit expedita impedit! Alias quibusdam ipsum quas.</p>
+	</article>
+
+</section>
+
+
+
+</div>
+</body>
+</html>
